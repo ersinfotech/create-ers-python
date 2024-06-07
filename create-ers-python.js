@@ -367,7 +367,7 @@ LOGIN_TEMPLATE = """
     </div>
 
     <script type="text/javascript">
-      var title = location.hostname.replace(/\..*$/, '');
+      var title = location.hostname.replace(/\\..*$/, '');
       document.title = title;
       document.getElementById('title').innerHTML = title;
     </script>
