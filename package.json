@@ -1,0 +1,23 @@
+{
+  "name": "create-ers-python",
+  "version": "1.0.0",
+  "description": "create ers python",
+  "main": "create-ers-python.js",
+  "bin": {
+    "create-ers-python": "create-ers-python.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersinfotech/create-ers-python.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersinfotech/create-ers-python/issues"
+  },
+  "homepage": "https://github.com/ersinfotech/create-ers-python#readme"
+}
