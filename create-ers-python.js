@@ -1,3 +1,5 @@
+    console.log({columns})
+
 #!/usr/bin/env node
 
 const fs = require('node:fs')
@@ -418,7 +420,7 @@ module.exports = {
 writeFileSync('install-env.sh', `
 python3 -m venv env
 source env/bin/activate
-pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 `)
 
 writeFileSync('app.py', `
