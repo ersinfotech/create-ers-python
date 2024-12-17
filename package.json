@@ -1,6 +1,6 @@
 {
   "name": "create-ers-python",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "create ers python",
   "main": "create-ers-python.js",
   "bin": {
