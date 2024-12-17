@@ -1,5 +1,3 @@
-    console.log({columns})
-
 #!/usr/bin/env node
 
 const fs = require('node:fs')

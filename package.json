@@ -7,7 +7,7 @@
     "create-ers-python": "create-ers-python.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "rm -rf test/ && mkdir test/ && cp create-ers-python.js test/ && cd test/ && node create-ers-python.js"
   },
   "repository": {
     "type": "git",
